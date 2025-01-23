@@ -1,0 +1,16 @@
+Middlewares 
+   1. inbuilt Middlewares
+      express.json () for parsing json bodies/
+      express.urlencoded() for parsing URL.encoded bodies.
+      express.statics() for serving static files.
+   2. Third party middlelewars
+      morgan() ==> log maintain
+      cors() =>  
+    3. Application Level Middlewares 
+       features:
+                -Request,response object access
+                -Sanitize request data
+                -Authencation ==> loggedInUser or not/valid
+                -Authorization =>  rules and permission
+    4. Routing level Middlewares
+       
